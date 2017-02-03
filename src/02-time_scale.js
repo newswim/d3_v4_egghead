@@ -5,4 +5,14 @@ var timeScale = d3.scaleTime()
 
 console.log(timeScale(new Date(2016, 5, 15)));
 
+/*
+  D3 allows us to convert from numeric values to time scales,
+  using the same concepts of domain and range mapping.
+
+  To find a halfway point between two dates, which might prove
+  difficult using a brute force method, we can use the `invert`
+  property and supply a halfway point within the number range,
+  in this case (50) since our range extends from 0 to 100.
+*/
+
 console.log(timeScale.invert(50))
