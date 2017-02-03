@@ -1,0 +1,16 @@
+{
+  "name": "learning-egghead-d3-v4",
+  "version": "1.0.0",
+  "description": "Learning D3 (v.4) with Egghead!",
+  "main": "src/app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.7"
+  },
+  "scripts": {
+    "test": "npm lol",
+    "start": "browser-sync start -s -f index.html src --no-ui --no-notify"
+  },
+  "author": "Dan Minshew",
+  "license": "MIT"
+}
