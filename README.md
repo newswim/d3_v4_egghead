@@ -17,3 +17,12 @@ $ yarnpkg start
 $ npm install
 $ npm run start
 ```
+
+- To try out any of the code, just change the line in `index.html`
+
+```html
+<body>
+  <!-- point to a different source file, ie. `src/01-range_and_domain.js` -->
+  <script src="src/02-time_scale.js"></script>
+</body>
+```
