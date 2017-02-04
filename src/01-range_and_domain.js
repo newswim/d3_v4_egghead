@@ -2,6 +2,7 @@
 
 // takes: a continuous input domain
 // maps to: a continuous output range, while maintaining proportions
+// thus this is said to contain a "Continuous Scale"
 var linearScale = d3.scaleLinear()
   .domain([0, 100])
   .range([0, 600])
