@@ -18,7 +18,7 @@ $ npm install
 $ npm run start
 ```
 
-- To try out any of the code, just change the line in `index.html`
+- To try out any of the code, change the line in `index.html`
 
 ```html
 <body>
